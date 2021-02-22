@@ -1,0 +1,27 @@
+.listtask{
+    width: 400px;
+    height: 500px;
+    border: 2px solid lightsalmon;
+    padding: 5px;
+}
+.newTask {
+    border: 2px solid lightcoral;
+}
+#green{
+    background-color: green;
+}
+input[name='delete']{
+    padding: 5px;
+    background-color: indianred;
+    height: auto;
+    width: 150px;
+    color: white;
+}
+
+
+th {
+    border: 2px solid palevioletred;
+}
+td{
+    border: 2px solid yellowgreen;
+}

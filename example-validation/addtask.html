@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add task</title>
+    <link rel="stylesheet" href="style/styletask.css">
+</head>
+<body>
+<div class='newuser'>
+    <form action="#" method="post" name="addtask">
+        
+        <fieldset name='field' class='fieldset'>
+            <legend>Форма добавления задачи</legend>
+                <label for="nametask">Название задачи</label>
+                <input id='nametask' name='nametask' type="text" placeholder="только буквы рус.алфавита" >
+                <div class='errors' style="height: 20px; color: red"></div>
+                
+                <label for="desctask">Описание задачи</label>
+                <textarea id='desctask' name='desctask' cols="30" rows="8" placeholder="только буквы рус.алфавита" ></textarea>
+                <div class='errors' style="height: 20px; color: red"></div>
+                
+                <label for="dtime">Срок выполнения</label>
+                <input id='data' name='ndate' type="datetime-local" >
+                <div class='errors' style="height: 20px; color: red"></div>
+                
+                <input name="adduser" class='adduser' type="button" value="Добавить участников">
+                <input name="btnAddForm" class='addform' type="submit" value="Добавить в список задач">
+            </fieldset>
+    </form>
+</div>
+<script src="script/jquery-3.5.1.min.js"></script> 
+<script src="script/js.js"></script>
+</body>
+</html>

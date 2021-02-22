@@ -94,7 +94,7 @@ form.addEventListener('submit', function(even) {
     
 });
 // по нажатию на кнопку добавляется текстовое поле textarea для добавления участников
-// так как часть функционала не реализована данный объект к валидации и передаче данных не подключен
+
 btnAdd.addEventListener('click',() => {
     let newField = document.createElement('textarea');
     let newP = document.createElement('p');
